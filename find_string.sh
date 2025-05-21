@@ -5,7 +5,7 @@ read f
 read c
 # Verifier si la chaine a ete trouver
 if grep -q "$c" "$f"; then
-echo "La chaine '$c' a été trouvée dans $f."
+echo "La chaîne '$c' a été trouvée dans $f."
 else
-echo "La chaine '$c' n'a pas été trouvée dans $f."
+echo "La chaîne '$c' n'a pas été trouvée dans $f."
 fi
